@@ -29,32 +29,4 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-    <build>
-        <plugins>
-         <plugin>
-        <groupId>org.openrewrite.maven</groupId>
-        <artifactId>rewrite-maven-plugin</artifactId>
-        <version>5.23.1</version>
-        <configuration>
-          <activeRecipes>
-            <recipe>org.openrewrite.java.OrderImports</recipe>
-            <!-- <recipe>com.yourorg.VetToVeterinary</recipe> -->
-            <recipe>org.openrewrite.java.spring.boot2.SpringBoot2JUnit4to5Migration</recipe>
-          </activeRecipes>
-        </configuration>
-        <dependencies>
-          <dependency>
-            <groupId>org.openrewrite.recipe</groupId>
-            <artifactId>rewrite-spring</artifactId>
-            <version>5.5.0</version>
-          </dependency>
-        </dependencies>
-      </plugin>
-        <plugin>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-maven-plugin</artifactId>
-        </plugin>
-      </plugins>
-      </build>
-    
 </project>
