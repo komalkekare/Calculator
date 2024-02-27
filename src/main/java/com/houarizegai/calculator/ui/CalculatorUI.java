@@ -1,14 +1,14 @@
 package com.houarizegai.calculator.ui;
 
-import com.houarizegai.calculator.theme.properties.Theme;
 import com.houarizegai.calculator.theme.ThemeLoader;
+import com.houarizegai.calculator.theme.properties.Theme;
 
+import java.awt.Color;
 import java.awt.Cursor;
 import java.awt.Font;
 import java.awt.event.ItemEvent;
 import java.util.Map;
 import java.util.regex.Pattern;
-import java.awt.Color;
 import javax.swing.*;
 
 import static com.houarizegai.calculator.util.ColorUtil.hex2Color;
